@@ -7,13 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400" rel="stylesheet" />
     <title>Music School Demo Site</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar sticky-top navbar-dark navbar-expand-sm px-5">
-            <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar fixed-top navbar-dark navbar-expand-md px-5">
+            <a class="navbar-brand active" href="index.html">Music Academy</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,24 +23,27 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#">Lessons</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="pricing.html">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="d-flex d-md-none btn btn-outline-light btn-sm mt-2 mb-3">Staff Login</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="d-flex d-md-none btn btn-outline-light btn-sm">Student Portal</button>
                     </li>
                 </ul>
             </div>
-            <button class="btn btn-light btn-sm mr-3">Staff Login</button>
-            <button class="btn btn-light btn-sm">Student Portal</button>
+            <button class="d-none d-md-flex btn btn-outline-light btn-sm m-2">Staff Login</button>
+            <button class="btn d-none d-md-flex btn-outline-light btn-sm my-2 mr-0 ml-2">Student Portal</button>
         </nav>
     </header>
 

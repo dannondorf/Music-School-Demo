@@ -5,8 +5,6 @@
 }
 
 body {
-   
-    
     font-family: 'Open Sans', Sans-Serif;
     font-size: 16px;    
 }
@@ -50,14 +48,17 @@ li, a, a:hover{
     padding-bottom: 1.6rem;
 }
 
-.btn-sm, .btn-lg{
-    border-radius: 0;
-}
-
 .btn-lg {
     border-width: medium;
     font-size: 1.1rem;
+}
+
+.carouselBtn {
     box-shadow: .1rem .1rem .5rem black;
+    border-radius: 0;
+}
+.testimonials {
+    max-height: 17rem;
 }
 
 
