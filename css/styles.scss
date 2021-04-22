@@ -1,0 +1,161 @@
+
+
+// color styles here 
+$color-primary: #c87700;
+$color-secondary: #023861;
+$color-secondary-transparent: #023861be;
+$color-pale-primary: #fff7ec;
+$color-dark: #784800;
+$color-dark-transparent: #5e3b06a6;
+$color-pale-secondary: #0071c7;
+$color-transparent-black: rgba(0, 0, 0, 0.5);
+
+
+// font styles here
+$body-font: 'Open Sans', Sans-Serif;
+$header-font: 'Raleway', Sans-Serif;
+
+
+
+*, *::before, *::after {
+    margin: 0;
+    box-sizing: border-box; }
+  
+  body {
+    color: $color-secondary;
+    background-color: $color-pale-primary;
+    font-family: $body-font;
+    font-size: 16px; }
+  
+  h1, h2, h3, h4, h5 {
+    font-family: "Raleway", Sans-Serif; 
+    color: $color-secondary;
+}
+  
+  li, a {
+    color: inherit;
+    text-decoration: none; }
+  
+    .modal-header {
+        color: black;
+    }
+  
+  .card-header button {
+    color: $color-secondary;  
+}
+
+.card-header button:hover {
+  color: $color-dark;
+}
+
+.jumbotron {
+    h1, h3{
+        color: $color-pale-primary;
+        font-weight: 700;
+        letter-spacing: .3rem;
+        text-shadow: .2rem .2rem .4rem black;
+        padding-bottom: 1rem;
+    }
+    h4 {
+        color: $color-pale-primary;
+        font-weight: 700;
+        text-shadow: .1rem .1rem .4rem black;
+        padding-bottom: 1rem;
+    }
+}
+
+  .navbar {
+    z-index: 100;
+    background-color: $color-secondary-transparent;
+    margin-bottom: -3.5rem;
+    color: $color-pale-primary; }
+  
+  
+  
+  .carousel-caption {
+    top: 38%; }
+  
+  .carousel-caption h1 {
+    color: $color-pale-primary;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem; }
+  
+  .carousel-caption h3 {
+    color: $color-pale-primary;
+    text-shadow: .1rem .1rem .6rem black;
+    padding-bottom: 1.6rem; }
+  
+  .btn-sm, .modal-content {
+    border-radius: 0; }
+  
+  .btn-lg {
+    border-width: medium;
+    font-size: 1.1rem; }
+  
+  .carouselBtn {
+    box-shadow: .1rem .1rem .5rem black;
+    border-radius: 0; }
+  
+  .testimonials {
+    max-height: 17rem; }
+  
+  .site-footer {
+      padding-top: 2rem;
+      background-color: $color-secondary;
+      color: $color-pale-primary;
+          h5 {
+          color: $color-primary;
+          }
+          li, a, i {
+          color: $color-pale-primary;
+          }
+      }
+  
+  .aboutJumbo {
+    background-color: $color-primary;
+    p {
+      color: $color-pale-primary;
+      font-weight: 700;
+      text-shadow: .1rem .1rem .4rem black;
+      padding-bottom: 1rem;
+    }
+  }
+  
+  #contactFormHeader {
+      color: $color-pale-primary;
+      padding-top: 5rem;
+  }
+  
+    #contactForm {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        margin-bottom: 8rem;
+    }
+  
+    #contactHTML{
+       z-index: 0;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+  
+    #contactBody {
+      color: white;
+      z-index: 1;
+      background-color: rgba(200, 119, 0, 0.25);
+      background-size: cover;
+      height: auto;
+      width: 100%;
+      position: absolute;
+      margin: 0;
+    }
+  
+    #contactBody h1 {
+      font-weight: 700;
+      letter-spacing: .3rem;
+      text-shadow: .1rem .1rem .8rem black;
+      padding-bottom: 1rem; 
+    }
+
+    
