@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- build:css css/main.css -->
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="css/styles.css" />
-        <!-- endbuild -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400" rel="stylesheet" />
-        <title>Music School Demo Site</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400" rel="stylesheet" />
+    <title>Music School Demo Site</title>
+</head>
 
 <body>
     <header>
@@ -34,24 +34,26 @@
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <button class="d-flex d-md-none btn btn-outline-light btn-sm mt-2 mb-3">Staff Login</button>
+                        <button role="button" id="staffLoginCollapse" class="d-flex d-md-none btn btn-outline-light btn-sm mt-2 mb-3">Staff Login</button>
                     </li>
                     <li class="nav-item">
-                        <button class="d-flex d-md-none btn btn-outline-light btn-sm">Student Portal</button>
+                        <button role="button" id="studentLoginCollapse" class="d-flex d-md-none btn btn-outline-light btn-sm">Student Portal</button>
                     </li>
                 </ul>
             </div>
-            <button role="button" id="staffLogin" class="d-none d-md-flex btn btn-outline-light btn-sm m-2">Staff Login</button>
-            <button role="button" id="studentLogin" class="btn d-none d-md-flex btn-outline-light btn-sm my-2 mr-0 ml-2">Student Portal</button>
+            <button role="button" id="staffLogin" class="d-none d-md-flex btn btn-outline-light btn-sm m-2">Staff
+                Login</button>
+            <button role="button" id="studentLogin"
+                class="btn d-none d-md-flex btn-outline-light btn-sm my-2 mr-0 ml-2">Student Portal</button>
         </nav>
 
         <div class="jumbotron jumbotron-fluid" style="background-image: url(img/violin.jpg);">
             <div class="container">
-              <h1 class="display-2 pt-5 pb-2">Music Lasts A Lifetime,</h1>
-              <h3 class="display-4">The lesson lasts an hour</h3>
-              <h4 class="pl-2">(or half hour if you prefer).</h4>
+                <h1 class="display-2 pt-5 pb-2">Music Lasts A Lifetime</h1>
+                <h3 class="d-none d-sm-block display-4">The lesson lasts an hour</h3>
+                <h4 class="d-none d-md-block pl-2">(or half hour if you prefer)</h4>
             </div>
-          </div>
+        </div>
 
 
         <div id="staffLoginModal" class="modal fade" role="dialog">
@@ -139,17 +141,23 @@
         <div class="container">
             <div class="row">
                 <div class="col py-5 border-bottom">
-                    <h1 class="text-center display-4">MAKE UP YOUR MIND, AAAAAAHHHH!!!!</h1>
+                    <h1 class="text-center display-4">Our Programs</h1>
                 </div>
             </div>
             <div class="row">
                 <div class="col border-bottom">
                     <div class="media my-5">
-                        <img class="col-4 img-fluid align-self-center mr-4" src="img/drumsMD.jpg" alt="Generic placeholder image">
+                        <img class="d-none d-md-block col-4 img-fluid align-self-center mr-4" src="img/drumsMD.jpg"
+                            alt="Generic placeholder image">
                         <div class="align-self-center media-body">
-                            <h5 class="mt-0">Center-aligned media</h5>
-                            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                            <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                            <h3 class="mt-0">Music Option 1</h3>
+                            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            </p>
+                            <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo.
+                                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -158,21 +166,30 @@
                 <div class="col border-bottom">
                     <div class="media my-5">
                         <div class="media-body align-self-center">
-                            <h5 class="mt-0 mb-1">Media object</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            <h3 class="mt-0 mb-1">Music Option 2</h3>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                            Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc
+                            ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                         </div>
-                        <img class="col-4 ml-4 align-self-center" src="img/LiveGuitar.jpg" alt="Generic placeholder image">
+                        <img class="d-none d-md-block col-4 ml-4 align-self-center" src="img/LiveGuitar.jpg"
+                            alt="Generic placeholder image">
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
                     <div class="media my-5">
-                        <img class="col-4 align-self-center mr-4" src="img/newViolin.jpg" alt="Generic placeholder image">
+                        <img class="d-none d-md-block col-4 align-self-center mr-4" src="img/newViolin.jpg"
+                            alt="Generic placeholder image">
                         <div class="media-body align-self-center">
-                            <h5 class="mt-0">Center-aligned media</h5>
-                            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                            <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                            <h3 class="mt-0">Music Option 3</h3>
+                            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce
+                                condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            </p>
+                            <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo.
+                                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -187,8 +204,8 @@
                 <div class="col-4 col-sm-2 offset-1">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="lessons.html">Lessons</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Lessons</a></li>
                         <li><a href="pricing.html">Pricing</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="contact.html">Contact</a></li>

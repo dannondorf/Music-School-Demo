@@ -5,4 +5,10 @@ $(function() {
     $("#studentLogin").click(function() {
         $("#studentLoginModal").modal("show");
     });
+    $("#staffLoginCollapse").click(function() {
+        $("#staffLoginModal").modal("show");
+    });
+    $("#studentLoginCollapse").click(function() {
+        $("#studentLoginModal").modal("show");
+    });
 });
